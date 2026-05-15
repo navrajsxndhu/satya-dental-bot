@@ -14,7 +14,7 @@ const appointmentSchema = new mongoose.Schema({
     service: {
         type: String,
         required: true,
-        enum: ['Implants', 'Root Canal', 'Orthodontics', 'Kids Dentistry', 'General Consultation'],
+        enum: ['Implants', 'Root Canal', 'Orthodontics', 'Kids Dentistry', 'Teeth Whitening', 'Cosmetic Dentistry', 'General Consultation'],
         default: 'General Consultation'
     },
     appointmentTime: {
